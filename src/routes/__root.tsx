@@ -81,8 +81,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "VDesigns Interiors — Luxury Interior Design Studio in Kerala" },
       { name: "twitter:description", content: "VDesigns Interiors is a premium interior design studio in Perinthalmanna, Kerala — crafting elegant residential, commercial, and luxury villa interiors across India." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/df173f4e-8a56-486e-85c5-b91584f72e89/id-preview-67a4c911--38fc2122-507a-4780-aada-72b608869c9d.lovable.app-1778138518322.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/df173f4e-8a56-486e-85c5-b91584f72e89/id-preview-67a4c911--38fc2122-507a-4780-aada-72b608869c9d.lovable.app-1778138518322.png" },
+      { property: "og:image", content: "/favicon.png" },
+      { name: "twitter:image", content: "/favicon.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
